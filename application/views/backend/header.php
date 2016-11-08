@@ -21,7 +21,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo base_url();?>index.php?<?php echo $account_type;?>/manage_profile">
+						<a href="<?php echo base_url();?>index.php?<?php echo ($account_type);?>/manage_profile">
                         	<i class="entypo-key"></i>
 							<span><?php echo get_phrase('change_password');?></span>
 						</a>
